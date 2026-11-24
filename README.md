@@ -3,7 +3,7 @@
 Simulação de uma lanchonete em **C (POSIX / Linux)** em que cada setor do estabelecimento é um **processo** ou uma **thread**, que se comunicam e se sincronizam usando os principais mecanismos de **programação concorrente** e **IPC** estudados na disciplina.
 
 > Projeto da disciplina de Sistemas Operacionais / Programação Concorrente.
-> **Equipe:** _Nome 1_, _Nome 2_, _Nome 3_
+> **Equipe:** Gabriele Lima, Barbara Kimberly Gonçalves, Jorge Luiz Lima
 
 ---
 
@@ -129,7 +129,7 @@ lanchonete-concorrente/
 ### Compilar
 
 ```bash
-git clone https://github.com/<usuario>/lanchonete-concorrente.git
+git clone https://github.com/NK0002/lanchonete-concorrente.git
 cd lanchonete-concorrente
 make
 ```
