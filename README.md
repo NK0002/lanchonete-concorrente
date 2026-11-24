@@ -1,4 +1,4 @@
-# 🍔 Lanchonete Concorrente
+# Lanchonete Concorrente
 
 Simulação de uma lanchonete em **C (POSIX / Linux)** em que cada setor do estabelecimento é um **processo** ou uma **thread**, que se comunicam e se sincronizam usando os principais mecanismos de **programação concorrente** e **IPC** estudados na disciplina.
 
@@ -7,7 +7,7 @@ Simulação de uma lanchonete em **C (POSIX / Linux)** em que cada setor do esta
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Demonstrar, em uma aplicação prática e fácil de visualizar, o uso combinado de:
 
@@ -20,7 +20,7 @@ A metáfora da lanchonete torna cada conceito concreto: pedidos são mensagens, 
 
 ---
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 ```mermaid
 flowchart LR
@@ -76,7 +76,7 @@ Nenhum pedido aceito é perdido: tudo o que entrou no pipe é preparado e entreg
 
 ---
 
-## 🔧 Mecanismos utilizados
+## Mecanismos utilizados
 
 | Conceito | Onde | Como |
 |---|---|---|
@@ -99,7 +99,7 @@ Nenhum pedido aceito é perdido: tudo o que entrou no pipe é preparado e entreg
 
 ---
 
-## 📁 Estrutura do repositório
+## Estrutura do repositório
 
 ```
 lanchonete-concorrente/
@@ -119,7 +119,7 @@ lanchonete-concorrente/
 
 ---
 
-## ▶️ Como executar
+## Como executar
 
 ### Requisitos
 
@@ -211,7 +211,7 @@ O próprio programa remove o FIFO, a fila e a memória compartilhada ao terminar
 
 ---
 
-## 📸 Exemplo de execução
+## Exemplo de execução
 
 ```
 [GERENTE   ] Lanchonete aberta! PID=303 | 3 cozinheiros, 2 fogões, buffer=3, expediente=8s
@@ -235,7 +235,7 @@ O próprio programa remove o FIFO, a fila e a memória compartilhada ao terminar
 
 ---
 
-## 📚 Referências
+## Referências
 
 - Kerrisk, M. *The Linux Programming Interface*. No Starch Press, 2010.
 - Tanenbaum, A. S.; Bos, H. *Sistemas Operacionais Modernos*. 4ª ed. Pearson.
